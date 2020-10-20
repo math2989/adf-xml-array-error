@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "DataFlowSource",
+						"referenceName": "DataFlow_Source",
 						"type": "DatasetReference"
 					},
 					"name": "source1"
@@ -15,7 +15,7 @@
 			"sinks": [
 				{
 					"dataset": {
-						"referenceName": "Raw",
+						"referenceName": "DataFlow_Sink",
 						"type": "DatasetReference"
 					},
 					"name": "sink1"

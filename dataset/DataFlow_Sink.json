@@ -1,7 +1,6 @@
 {
-	"name": "DataFlowSink",
+	"name": "DataFlow_Sink",
 	"properties": {
-		"description": "Raw",
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"

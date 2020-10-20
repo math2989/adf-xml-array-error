@@ -1,7 +1,6 @@
 {
-	"name": "DataFlowSource",
+	"name": "DataFlow_Source",
 	"properties": {
-		"description": "Staging",
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"

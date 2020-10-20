@@ -1,5 +1,5 @@
 {
-	"name": "Source",
+	"name": "CopyData_Source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",

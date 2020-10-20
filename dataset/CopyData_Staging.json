@@ -1,5 +1,5 @@
 {
-	"name": "Staging",
+	"name": "CopyData_Staging",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
