@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "data.xml"
+				"fileName": "data.xml",
+				"fileSystem": "staging"
 			}
 		}
 	}
