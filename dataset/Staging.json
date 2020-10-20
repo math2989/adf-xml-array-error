@@ -1,5 +1,5 @@
 {
-	"name": "Binary1",
+	"name": "Staging",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
