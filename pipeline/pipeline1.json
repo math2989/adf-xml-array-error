@@ -47,16 +47,13 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "XmlSource",
+						"type": "BinarySource",
 						"storeSettings": {
 							"type": "HttpReadSettings",
 							"requestMethod": "GET"
 						},
 						"formatSettings": {
-							"type": "XmlReadSettings",
-							"validationMode": "none",
-							"detectDataType": false,
-							"namespaces": false
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
@@ -69,13 +66,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Source",
+						"referenceName": "CopyData_Source",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Staging",
+						"referenceName": "CopyData_Staging",
 						"type": "DatasetReference"
 					}
 				]
