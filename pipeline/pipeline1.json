@@ -7,7 +7,7 @@
 				"type": "ExecuteDataFlow",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "Source to Staging",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -33,7 +33,8 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "Source to Staging",
+				"description": "Copies the XML from the web (GitHub) to a blob store (Staging container).",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
