@@ -1,5 +1,5 @@
 {
-	"name": "Parquet1",
+	"name": "Raw",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

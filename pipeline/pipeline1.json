@@ -68,7 +68,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Xml1",
+						"referenceName": "Source",
 						"type": "DatasetReference"
 					}
 				],
