@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Organizations_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v34.1">
+            <wd:Response_Data>
+                <wd:Organization>
+                    <wd:Organization_Data>
+                        <wd:Organization_Visibility_Reference>
+                            <wd:ID wd:type="WID">somedata1</wd:ID>
+                        </wd:Organization_Visibility_Reference>
+                    </wd:Organization_Data>
+                </wd:Organization>
+                <wd:Organization>
+                    <wd:Organization_Data>
+                        <wd:Organization_Visibility_Reference>
+                            <wd:ID wd:type="WID">somedata2</wd:ID>
+                        </wd:Organization_Visibility_Reference>
+                    </wd:Organization_Data>
+                </wd:Organization>
+            </wd:Response_Data>
+        </wd:Get_Organizations_Response>
+    </env:Body>
+</env:Envelope>
